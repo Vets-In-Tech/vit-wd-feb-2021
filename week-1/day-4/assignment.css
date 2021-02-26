@@ -1,0 +1,36 @@
+/* Border right DIV1 */
+/* Border left DIV2 */
+/* Border Top and Bottom - Silent Auction, Bold */
+
+body {
+    background-color: lightblue;
+}
+
+.colLeft {
+    width: 33%;
+    height: 100%;
+    margin: auto;
+    border: none;
+    display: inline;
+
+  
+}
+
+.colMiddle {
+    width: 33%;
+    height: ;
+    margin: auto;
+    border-left: solid 5px black;
+    border-right: solid 5px black;
+    float: inline-end;
+    display: inline-flexbox;
+  
+}
+
+.colRight {
+    width: 33%;
+    height: auto;
+    margin: auto;
+    border: none;
+    display: inline-flexbox;
+}

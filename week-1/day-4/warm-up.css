@@ -1,0 +1,21 @@
+h1{
+    text-transform: lowercase;
+    text-align: right;
+    font-size: 58px;
+    color: white;
+    font-family: 'Stick', sans-serif;
+}
+
+h2 {
+    text-transform: lowercase;
+    text-align: right;
+    font-size: 58px;
+    color: black;
+}
+
+h3{
+    text-transform: lowercase;
+    text-align: right;
+    font-size: 58px;
+    color: darkgoldenrod;
+}
