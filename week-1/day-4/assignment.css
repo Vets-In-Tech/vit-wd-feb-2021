@@ -1,0 +1,28 @@
+#left-column{
+    float:left;
+    border: 1;
+    width: 50;
+    height: 50;
+    background-color: wheat;
+    min-height: 70vh;
+}
+
+#middle-column{
+    float:center;
+    border: 1;
+    width: 50;
+    height: 50;
+    background-color: green;
+    min-height: 70vh;
+}
+}
+
+#right-column{
+    float: right;
+    border: 1;
+    width: 50;
+    height: 50;
+    background-color :blue;
+    min-height: 70vh;
+}
+}

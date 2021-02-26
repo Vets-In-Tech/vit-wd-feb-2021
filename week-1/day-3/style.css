@@ -4,3 +4,9 @@ p {
   font-style: italic;
   line-height: 22px;
 }
+
+div {
+  width: 100px
+  height: 100px
+  float: left 
+}
