@@ -1,0 +1,10 @@
+body {
+  background-color: green;
+}
+.col {
+  color: pink;
+  width: 200px;
+  height: 400px;
+  background-color: yellow;
+  border: dotted 1px orange;
+}

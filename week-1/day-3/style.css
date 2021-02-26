@@ -4,3 +4,13 @@ p {
   font-style: italic;
   line-height: 22px;
 }
+
+h1 {
+  /*margin: 10px;*/
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  margin-right: 100;
+  border: solid 5px red;
+  padding: 10px;
+}

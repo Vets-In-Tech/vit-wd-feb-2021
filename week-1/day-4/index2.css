@@ -1,0 +1,30 @@
+body {
+  min-height: 100vh;
+}
+header {
+  min-height: 20%;
+}
+
+div {
+  min-height: 70%;
+}
+footer {
+  min-height: 10%;
+}
+#heroImage {
+  height: 10vh;
+  width: 100px;
+}
+.fourColumns {
+  background-color: royalblue;
+  min-height: 10vh;
+  margin: 10px;
+}
+.topFourColumns {
+  border: solid 1px black;
+}
+.eachCol {
+  width: 22%;
+  border: solid 5px pink;
+  display: inline-block;
+}
