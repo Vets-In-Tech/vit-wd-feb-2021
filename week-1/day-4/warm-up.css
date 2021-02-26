@@ -1,0 +1,12 @@
+h1 {
+    text-transform: lowercase;
+    color: beige;
+}
+h2 {
+    text-align: right;
+    font-family: 'DotGothic16', sans-serif;
+}
+h3 {
+    font-size: 58px;
+    color: bisque;
+}
