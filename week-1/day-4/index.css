@@ -1,0 +1,7 @@
+body { background-color: green;
+width: 100vw;}
+div {
+    color: pink;
+    width: 200px;
+    height: 400px;
+    background-color: yellow; }
