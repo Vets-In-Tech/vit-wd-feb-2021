@@ -1,6 +1,13 @@
 p {
-  color: blue; /* Styles! */
+  color: blue;
   font-size: 20px;
   font-style: italic;
   line-height: 22px;
+}
+
+h1 {
+  margin: 10px;
+  border: solid 5px red;
+  padding: 5px;
+  color: plum;
 }
