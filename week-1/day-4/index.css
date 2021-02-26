@@ -1,0 +1,11 @@
+body {
+  background-color: green;
+}
+
+div {
+  color: pink;
+  width: 200px;
+  height: 400px;
+  background-color: yellow;
+  border: 10px dotted black;
+}
