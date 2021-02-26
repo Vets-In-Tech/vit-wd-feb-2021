@@ -1,0 +1,13 @@
+body {
+    background-color: green;
+}
+div {
+    color: rebeccapurple;
+}
+.col {
+    color:pink;
+    width: 200px;
+    height: 400px;
+    background-color: yellow;
+    border: 1px dotted
+}
