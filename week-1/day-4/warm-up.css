@@ -1,0 +1,13 @@
+h1{
+    text-transform: lowercase;
+    color: aliceblue;
+    font-family:'Oi', cursive;
+}
+h2 {
+    text-align:right;
+    color: blanchedalmond;
+}
+h3 {
+    font-size: 58px;
+    color: chartreuse;
+}
