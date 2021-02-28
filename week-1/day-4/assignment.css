@@ -1,0 +1,98 @@
+#colLeft {
+  float: left;
+  width: 300px;
+  height: 600px;
+  background-color: #3c5577;
+  border-right: solid black 7px;
+  position: ;
+}
+#colMid {
+  float: left;
+  width: 300px;
+  height: 600px;
+  background-color: #3c5577;
+  position: sticky;
+}
+#colRight {
+  float: left;
+  width: 300px;
+  height: 600px;
+  background-color: #3c5577;
+  border-left: solid black 7px;
+  position: sticky;
+}
+#box1 h2 {
+  text-align: center;
+  font-family: "Neucha", cursive;
+  font-size: 40px;
+  letter-spacing: 3px;
+  margin-top: 90px;
+  color: #0076bf;
+}
+#box2 {
+  font-family: "Neucha", cursive;
+  font-size: 30px;
+  text-align: center;
+  color: #d77145;
+}
+#box3 img {
+  height: 194px;
+  width: 209px;
+  margin-left: 45px;
+  margin-top: -5px;
+}
+#box4 img {
+  height: 128px;
+  width: 259px;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+#box5 h2 {
+  font-family: "Neucha", cursive;
+  color: #0076bf;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+}
+#box6 .contact {
+  margin-left: 5px;
+  font-family: "Neucha", cursive;
+  color: #60a7e5;
+}
+#box7 img {
+  height: 108px;
+  width: 116px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+hr {
+  background-color: black;
+  border: none;
+  height: 7px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+h1 {
+  line-height: 5px;
+  text-align: center;
+  font-family: "Neucha", cursive;
+  color: #0076bf;
+  font-size: 36px;
+}
+#box9 {
+  line-height: 17px;
+  font-family: "Neucha", cursive;
+  margin-left: 5px;
+  color: #60a7e5;
+}
+#box10 img {
+  height: 138px;
+  width: 270 px;
+  margin-left: 27px;
+  margin-top: 70px;
+}
+#audio audio {
+  height: 25px;
+  width: 250px;
+  margin-left: 25px;
+}
