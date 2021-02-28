@@ -33,16 +33,16 @@
   color: #d77145;
 }
 #box3 img {
-  height: 194px;
-  width: 209px;
-  margin-left: 45px;
-  margin-top: -5px;
+  height: 156px;
+  width: 259px;
+  margin-left: 21px;
+  margin-top: 25px;
 }
 #box4 img {
-  height: 128px;
+  height: 156px;
   width: 259px;
   margin-top: 40px;
-  margin-left: 25px;
+  margin-left: 20px;
 }
 #box5 h2 {
   font-family: "Neucha", cursive;
@@ -83,13 +83,13 @@ h1 {
   color: #60a7e5;
 }
 #box10 img {
-  height: 138px;
-  width: 270 px;
-  margin-left: 27px;
-  margin-top: 70px;
+  height: 156px;
+  width: 259px;
+  margin-left: 20px;
+  margin-top: 57px;
 }
 #audio audio {
   height: 25px;
   width: 250px;
-  margin-left: 25px;
+  margin-left: 26px;
 }
