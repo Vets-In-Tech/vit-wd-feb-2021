@@ -49,7 +49,20 @@ h1 {
     padding: 3px;
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+}
+
 /* box 3 */
+.box3 p {
+    text-indent: 5px;
+}
+
+.dateTime{
+   line-height: 0px;
+}
 
 .vit {
     text-align: center;
