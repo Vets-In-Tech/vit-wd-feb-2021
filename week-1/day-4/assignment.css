@@ -15,8 +15,6 @@
 #row-1-block {
   height: 80px;
 }
-.row-1 {
-}
 .row-1 h1 {
   font-size: 250%;
   font-weight: 1px;
@@ -27,18 +25,15 @@ ul li {
   list-style-type: none;
   font-size: x-large;
 }
-.row-2 {
-}
 .row-2 h1 {
   font-size: 250%;
   /* font-weight: 11px; */
   text-align: center;
   text-decoration: underline;
 }
-.row-3 {
-}
 #row-3-image {
   margin-top: 80px;
+  margin-bottom: 100px;
 }
 .smaller-image {
   margin-top: 40px;
@@ -52,4 +47,21 @@ ul li {
   background-color: black;
   width: 10px;
   margin: 10px 0px 10px 0px;
+}
+#vit-logo {
+  margin-bottom: 20px;
+}
+.row-3 h1 {
+  font-size: 250%;
+  /* font-weight: 11px; */
+  text-align: center;
+}
+.silent-auction-line {
+  border: 4px solid black;
+}
+#line-1 {
+  margin-bottom: -20px;
+}
+#line-2 {
+  margin-top: -20px;
 }
