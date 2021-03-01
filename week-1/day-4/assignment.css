@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}
+img{
+    width: 100%;
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+h3{
+    margin: 0px;
+    text-align: center;
+}
+#mid{
+    border-right: solid 10px black;
+    border-left: solid 10px black;
+}
+#it{
+    text-decoration: none;
+    border-top: solid 10px black;
+    border-bottom: solid 10px black;
+}
+#logo{
+    width: 33%;
+    margin-left: 33%;
+}
+#tree{
+    margin-top: 100px;
+}
