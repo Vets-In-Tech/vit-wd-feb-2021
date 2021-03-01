@@ -1,4 +1,36 @@
-.col1{
-    width: 200px;
+.Columns{
     text-align: center;
+    display: inline-block;
+    height: 950px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+body{
+    background-color: white;
+    margin-top: 0px;
+}
+
+.col{
+    width: 300px;
+    display: inline-block;
+}
+#Seperator{
+    width: 7px;
+    line-height: 970px;
+    vertical-align: top;
+    border: solid;
+    background-color: black;
+}
+#border{
+    width: 300px;
+    line-height: 10px;
+    border: solid;
+    background-color: black;
+}
+
+
+
+
+
+
+
