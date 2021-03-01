@@ -1,28 +1,20 @@
-#left-column{
-    float:left;
-    border: 1;
-    width: 50;
-    height: 50;
-    background-color: wheat;
-    min-height: 70vh;
+.column{
+    float: left;
+    width: 30%;
+    height: 760px;
+    border-style: solid;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#middle-column{
-    float:center;
-    border: 1;
-    width: 50;
-    height: 50;
-    background-color: green;
-    min-height: 70vh;
-}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
-#right-column{
-    float: right;
-    border: 1;
-    width: 50;
-    height: 50;
-    background-color :blue;
-    min-height: 70vh;
-}
+h1{
+    font-size: 350%;
 }
