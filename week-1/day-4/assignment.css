@@ -1,36 +1,69 @@
-/* Border right DIV1 */
-/* Border left DIV2 */
-/* Border Top and Bottom - Silent Auction, Bold */
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-auto-rows: 800px;
+}
+
+.wrapper {
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+.border {
+    border: 2px solid black;
+}
 
 body {
-    background-color: lightblue;
+    background-color: white;
 }
 
-.colLeft {
-    width: 33%;
-    height: 100%;
-    margin: auto;
-    border: none;
-    display: inline;
+h1 {
+    font-weight: lighter;
+    text-decoration: underline;
+    text-align: center;
+}
+/* Box1 */
 
-  
+.box1 {
+    text-align: center;
+    margin-top: 150px;
+    ;
 }
 
-.colMiddle {
-    width: 33%;
-    height: ;
-    margin: auto;
-    border-left: solid 5px black;
-    border-right: solid 5px black;
-    float: inline-end;
-    display: inline-flexbox;
-  
+.box1 p {
+    font-size: x-large;
+    margin: 10px;
 }
 
-.colRight {
-    width: 33%;
-    height: auto;
-    margin: auto;
-    border: none;
-    display: inline-flexbox;
+.box1 img {
+    margin-top: 100px;
+    padding:3px;
 }
+/* Box 2 */
+
+.box2 {
+    margin-top: 20px;
+}
+
+.box2 img{
+    padding: 3px;
+}
+
+/* box 3 */
+
+.vit {
+    text-align: center;
+    margin-top: 20px;
+}
+.imgThree{
+    margin-top: 100px;
+}
+
+#silentAuction {
+    font-weight: bold;
+    text-decoration: none;
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+}
+
+
