@@ -1,0 +1,14 @@
+h2 {
+   margin-top: 50px;
+   margin-bottom: 100px;
+   margin-left: 10px;
+   margin-right:100px; 
+}
+
+h3 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right:100px;
+    border-bottom: solid 10px black;
+}
