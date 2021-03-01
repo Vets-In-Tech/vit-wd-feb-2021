@@ -1,0 +1,50 @@
+#mediaImage {
+  width: 100%;
+  height: auto;
+}
+.socialMedia {
+  text-align: center;
+  padding: 40px;
+  padding-top: 0px;
+}
+.media {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#flag {
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.vetsinTech {
+  text-align: center;
+  border-bottom: solid;
+}
+#sunrise {
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+.silentAuction {
+  text-align: left;
+}
+
+/* Allows the columns to float next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: auto;
+  border-style: solid;
+}
+
+* {
+  box-sizing: border-box;
+}
