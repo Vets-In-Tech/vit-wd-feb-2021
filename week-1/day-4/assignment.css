@@ -1,0 +1,18 @@
+
+.col {
+    float: left;
+    width: 30%;
+  }
+
+body {
+      text-align: center;
+      background-color: white;
+  }
+
+#leftColumn {
+    border-right: solid 10px black;
+}
+
+#rightColumn {
+    border-left: solid 10px black;
+}
