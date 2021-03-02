@@ -1,0 +1,39 @@
+body {
+
+background-color: gray;
+height: 100vh;
+width: 100vw;
+
+}
+
+#container {
+
+    background-color: hotpink;
+    height: 50%;
+    width: 30%;
+    border: sold green 5px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.column {
+justify-content: start;
+    background-color: start;
+height: 50%;
+width: 30%;
+border: solid green 5px;
+display: inline-block;
+margin: 10px
+
+}
+
+#puppy {
+width: 50%;
+height: 50%;
+
+}
+
+
+
+
+}
