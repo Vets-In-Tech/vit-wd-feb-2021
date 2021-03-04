@@ -1,0 +1,27 @@
+img {
+  width: 200px;
+  height: 200px;
+}
+
+#window {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border: solid 5px red;
+  overflow: hidden;
+}
+@keyframes carousel {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-600px);
+  }
+}
+
+#imgSlider {
+  display: flex;
+  animation-name: carousel;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
