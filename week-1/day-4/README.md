@@ -20,7 +20,7 @@ Be comfortable with this, as this will be a frequent practice.
    2. right aligned
    3. font size of 58 pixels
 
-Finished Early?
+Finished Ea1rly?
 
 1. Add colors of your choice to each of the text!
 2. Pull in a new font from google & apply it to `h1`

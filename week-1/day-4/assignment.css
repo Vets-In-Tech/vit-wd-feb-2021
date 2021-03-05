@@ -12,3 +12,22 @@ h3 {
     margin-right:100px;
     border-bottom: solid 10px black;
 }
+
+body {
+    background-color: gray;
+    height: 100vh;
+}
+
+container {
+    height: 100%;
+    width: 100%;
+}
+
+.column {
+    background-color:black;
+    height: 50%;
+    width: 23%;
+    border: solid green 5px;
+    display:inline-block;
+    margin: 10px;
+}
