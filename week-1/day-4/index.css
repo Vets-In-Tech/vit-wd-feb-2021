@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     box-sizing: border-box;
 }
@@ -33,3 +34,42 @@ h3{
 #tree{
     margin-top: 100px;
 }
+=======
+body {
+  min-height: 100vh;
+}
+
+header {
+  min-height: 20vh;
+}
+
+#mainBody {
+  min-height: 70vh;
+}
+
+footer {
+  min-height: 10vh;
+}
+
+#heroImage {
+  /* height: 10vh; */
+  max-width: 100px;
+}
+
+.fourColumns {
+  background-color: royalblue;
+  min-height: 10vh;
+  margin: 10px;
+}
+
+.topFourColumns {
+  border: solid 1px black;
+}
+
+.eachCol {
+  width: 350px;
+  margin: 10px;
+  border: solid 5px pink;
+  display: inline-block;
+}
+>>>>>>> fba6ef1e63ee1947244dc4df2e76630605dc1bd1
