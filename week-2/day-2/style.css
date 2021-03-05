@@ -1,0 +1,32 @@
+img {min-width: 500px;
+height: 300px;
+}
+
+#window {
+    width: 500px;
+    height: 300px;
+    border: solid 5px rgb(4, 0, 255);
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+#imgSlider {
+    display: flex;
+    animation-name: carousel;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes carousel {
+    from {
+transform: translateX(0px);
+    }
+to {
+transform: translateX(-500px);
+}
+
+
+}
+
+
