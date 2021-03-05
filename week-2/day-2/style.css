@@ -1,0 +1,35 @@
+img{
+    min-width: 400px;
+    height: 300px;
+}
+#window{
+    width: 400px;
+    height: 300px; 
+    border: solid 5px gray;
+    margin: auto;
+    overflow: hidden;
+}
+/* Function name Nameless */
+@keyframes Nameless{
+    from{
+        0%{
+            opacity: 0;
+        transform: translateX(0px);
+        opacity: 2;
+        transform: translateX(-1200px);}
+
+    }
+    to{
+        opacity: 2;
+        transform: translateX(-1200px);
+    }
+} 
+#slider{
+    display:flex;
+    /* Calling the function */
+    animation-name: Nameless;
+    /* time for the whole */
+    animation-duration: 10s;
+    /* loop */
+    animation-iteration-count: infinite;
+}
