@@ -10,7 +10,16 @@
 - Find elements in the DOM
 - Create, Insert, and Modify elements
 
+<!--excercise.md
+By ID if I search for something that doesn't exist, I'm going to get back null
+document.getElementByID("david")
+By Tag
+document.getElementsByTagName("h1")
+By Class if I search for something that doesn't exist, I'm going to get back nothing.
+document.getElementsByClassName('')
+By Selector
 
+-->
 
 ### References
 
