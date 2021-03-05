@@ -46,9 +46,7 @@ https://www.w3schools.com/cssref/pr_font_font-size.asp
 
 ### Learning Objectives
 
-- Git Hub Pull
 - Page Layout
-- CSS Box Model
 - Selectors
 - Git Hub Push & Pull Request
 
