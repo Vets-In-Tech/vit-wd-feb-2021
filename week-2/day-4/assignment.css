@@ -1,0 +1,20 @@
+#window {
+  height: 223px;
+  width: 253px;
+  margin: 0 auto;
+  border: solid 5px blue;
+  overflow: hidden;
+}
+#imgSlider {
+  display: flex;
+}
+.previous,
+.next {
+  position: absolute;
+  top: 20%;
+  width: auto;
+  color: white;
+}
+.next {
+  right: 0;
+}
