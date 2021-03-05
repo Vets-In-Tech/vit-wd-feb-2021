@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
     text-transform: lowercase;
 }
@@ -9,3 +10,14 @@ h2 {
 h3 {
     font-size: 58px;
 }
+=======
+body {
+    background-color: grey;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+>>>>>>> 131990caf9f4551456383713596658091363c9f8
