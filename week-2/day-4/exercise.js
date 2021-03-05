@@ -1,13 +1,18 @@
 function decrement() {
   // access the DOM element associated with the h1
-  var h1Element = "CHANGE ME";
+  var h1Element = document.getElementById("grabMe");
   var numberText = Number(h1Element.innerText);
-  numberText++;
+  numberText--;
   h1Element.innerText = numberText;
 }
 
 function increment() {
   // write code here
+  // access the DOM element associated with the h1
+  var h1Element = document.getElementById("grabMe");
+  var numberText = Number(h1Element.innerText);
+  numberText++;
+  h1Element.innerText = numberText;
 }
 
 // Done early? Try to add a blocker that doesnt go below 0 and above 10!
