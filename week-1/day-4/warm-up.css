@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
   text-transform: lowercase;
 }
@@ -10,3 +11,14 @@ h3 {
 h4 {
   text-shadow: 0ex;
 }
+=======
+body {
+    background-color: grey;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+>>>>>>> 76e0015f2dcbfc13e404214e4a7d6aa7e36a7b7b
