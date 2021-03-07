@@ -2,7 +2,28 @@ p {
   color: blue; /* Styles! */
   font-size: 20px;
   font-style: italic;
-  line-height: 22px;
+  line-height: 45px;
+  font-family: "Lobster", "San Serif", cursive;
+}
+
+h1 {
+  /* margin: 100px; */
+  margin-top: 50px;
+  margin-bottom: 75px;
+  margin-left: 10px;
+  margin-right: 100px;
+  border: solid 5px;
+  /* color: rgb(74, 169, 80);  */
+  color: #fe00fe;
+  /* padding: 200px; */
+}
+
+ul {
+  background-color: grey;
+}
+
+li {
+  font-weight: 900;
 }
 
 h1 {
