@@ -30,6 +30,10 @@ img {
     animation-iteration-count: infinite;
 }
 
+#jsSlider {
+    display: flex;
+}
+
 
 h1 {
     text-align: center;
