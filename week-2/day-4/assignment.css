@@ -1,0 +1,65 @@
+:root{
+    --mainColor: #eaeaea;
+    --secondaryColor: #fff;
+
+    --borderColor: #c1c1c1;
+
+    --mainText: black;
+    --secondaryText: #4b5156;
+
+    --themeDotBorder: #24292e;
+
+    --previewBg: rgb(251, 249, 243, 0.8);
+    --previewShadow: #f0ead6; 
+
+    --btnColor: black;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    color: var(--mainText);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    text-align: center;
+}
+
+.carousel-container {
+    width: 60%;
+    margin: auto;
+    border: 5px solid var(--btnColor);
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 0%;
+    font-size: 30px;
+    color: var(--secondaryColor);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 0%;
+    font-size: 30px;
+    color: var(--secondaryColor);
+    opacity: 0.7;
+    cursor: pointer;
+}
