@@ -13,7 +13,6 @@ function increment() {
   if (numberText < 10){
     numberText++;
   }
-  // numberText !< 0;
   h1Element.innerText = numberText;
 }
 

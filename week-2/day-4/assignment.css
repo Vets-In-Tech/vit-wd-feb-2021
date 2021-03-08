@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    align-items: center;
+    background-image: url("./this.jpg");
+    background-size: 1600px;
+}
+img{
+    min-width: 300px;
+    height: 250px;
+}
+#Window{
+    width: 300px;
+    height: 250px;
+    border: 10px solid black;
+    margin: auto;
+    overflow: hidden;
+}
+@keyframes Home{
+    0%{opacity: 1;
+    transform: translateX(0px);}
+    8.34%{opacity: 0.1;
+    transform: translateX(-300px);}
+    16.67%{opacity: 1;
+    transform: translateX(-300px);}
+    25.01%{opacity: 0.1;
+    transform: translateX(-600px);}
+    33.35%{opacity: 1;
+    transform: translateX(-600px);}
+    41.69%{opacity: 0.1;
+    transform: translateX(-900px);}
+    50.03%{opacity: 1;
+    transform: translateX(-900px);}
+    58.37%{opacity: 0.1;
+    transform: translateX(-1200px);}
+    66.71%{opacity: 1;
+    transform: translateX(-1200px);}
+    75.05%{opacity: 0.1;
+    transform: translateX(-1500px);}
+    83.39%{opacity: 1;
+    transform: translateX(-1500px);}
+    91.73%{opacity: 0.1;
+    transform: translateX(-1800px);}
+    100%{opacity: 1;
+    transform: translateX(-1800px);}
+}
+#Slides{
+    display: flex;
+    animation-name: Home;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+
+}
