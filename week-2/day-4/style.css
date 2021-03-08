@@ -1,0 +1,34 @@
+h1 {
+    text-indent: 50%;
+}
+
+img {
+    min-width: 500px;
+    height: 300px;
+}
+
+#window {
+    width: 500px;
+    height: 300px;
+    border: solid 1px black;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+@keyframes carousel {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-1500px)
+    }
+
+}
+
+#imgSlider{
+    display: flex;
+    animation-name: carousel;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+}
