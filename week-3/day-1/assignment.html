@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Type Pt. 1 | ViT Web Dev</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text&family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="stack" id="main">
+      <div><h1>Assignment, Operators, & Comparisons</h1></div>
+      <div>
+        <div>
+          <h3>Operators & Assignment</h3>
+          <h4>
+            We're going to cover both operators and assignments together to
+            reduce redundancy.
+          </h4>
+          <table class="offset">
+            <thead>
+              <tr>
+                <th>Operator/Assignments</th>
+                <th>Example</th>
+                <th>Evaluation</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>=</td>
+                <td>var x = 1</td>
+                <td>1</td>
+                <td>Assigns a value to a variable</td>
+              </tr>
+              <tr>
+                <td>+=</td>
+                <td>x += 5</td>
+                <td>6</td>
+                <td>
+                  Base on the previous assignment, we add the current value with
+                  the new value.
+                </td>
+              </tr>
+              <tr>
+                <td>-=</td>
+                <td>x -= 1</td>
+                <td>5</td>
+                <td>Subtracting previous assignment with the new value.</td>
+              </tr>
+              <tr>
+                <td>*=</td>
+                <td>x *= 10</td>
+                <td>50</td>
+                <td>Multiplying previous assignment with the new value.</td>
+              </tr>
+              <tr>
+                <td>/=</td>
+                <td>x /= 5</td>
+                <td>10</td>
+                <td>Dividing previous assignment with the new value.</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>There are many others but these are the most common ones.</p>
+          <div class="codeBlock">
+            <p>// A list of other assignments:</p>
+            <ul>
+              <li>
+                %= // Remainder Assignment: assigns the remainder value after
+                evaluation
+              </li>
+              <li>**= // Exponential Assignment: assigns the exponential</li>
+              <li>
+                <<= // Left Shift Assignment: moves the specific bits to the
+                left and assigns
+              </li>
+              <li>
+                >>= // Right Shift Assignment: moves specific bits to the right
+                and assigns
+              </li>
+              <li>
+                >>>= // Unsigned Right Shift Assignment:moves specific
+                <b>amount</b> of bits to the right and assigns
+              </li>
+              <li>
+                &= // Bitwise AND assignment: compares and assigns like binary
+                representations
+              </li>
+              <li>
+                ^= // Bitwise XOR assignment: compares and assigns unlike binary
+                representations
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h3>Comparisons</h3>
+          <table class="offset">
+            <thead>
+              <tr>
+                <th>Operator</th>
+                <th>Description</th>
+                <th>Example</th>
+                <th>Evaluation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>==</td>
+                <td>equal to</td>
+                <td>8 == 8</td>
+                <td>true</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>5 == 8</td>
+                <td>false</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>5 == "5"</td>
+                <td>true</td>
+              </tr>
+              <tr>
+                <td>===</td>
+                <td>equal value and equal type</td>
+                <td>5 === 5</td>
+                <td>true</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>5 === "5"</td>
+                <td>false</td>
+              </tr>
+              <tr>
+                <td>!=</td>
+                <td>not equal</td>
+                <td>10 != 10</td>
+                <td>false</td>
+              </tr>
+              <tr>
+                <td>!=</td>
+                <td>not equal</td>
+                <td>10 != "10"</td>
+                <td>false</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>11 != 10</td>
+                <td>true</td>
+              </tr>
+              <tr>
+                <td>!==</td>
+                <td>not equal value or equal type</td>
+                <td>10 !== 10</td>
+                <td>false</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>10 !== "10"</td>
+                <td>true</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>10 !== 8</td>
+                <td>true</td>
+              </tr>
+              <tr>
+                <td>></td>
+                <td>greater than</td>
+                <td>11 > 10</td>
+                <td>true</td>
+              </tr>
+              <tr>
+                <td><</td>
+                <td>less than</td>
+                <td>10 < 11</td>
+                <td>true</td>
+              </tr>
+              <tr>
+                <td>>=</td>
+                <td>greater than or equal to</td>
+                <td>11 >= 10</td>
+                <td>true</td>
+              </tr>
+              <tr>
+                <td><=</td>
+                <td>less than or equal to</td>
+                <td>5 <= 5</td>
+                <td>true</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div></div>
+      <div class="textAlign">
+        <button onclick="window.location.href='./index.html'">Home</button>
+      </div>
+      <div></div>
+    </div>
+  </body>
+</html>

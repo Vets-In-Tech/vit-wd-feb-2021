@@ -18,7 +18,7 @@ function turnBGblue(){
     document.body.style.backgroundColor = "blue";
 }
 
-//turnBGblue(){}
+turnBGblue(){}
 
 
 function changeTitleToNumber(){

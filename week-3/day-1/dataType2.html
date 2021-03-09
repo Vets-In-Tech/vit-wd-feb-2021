@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Type Pt. 2 | ViT Web Dev</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text&family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="stack" id="main">
+      <div><h1>Data Type Pt. 2</h1></div>
+      <div>
+        <h2>Array and Objects</h2>
+        <p>The remaining two data types are data structures.</p>
+        <p>
+          Instead of direct representation, there are structured and organized
+          data types.
+        </p>
+      </div>
+      <div>
+        <table class="offset">
+          <thead>
+            <tr>
+              <th>Data Type</th>
+              <th>Description</th>
+              <th>Example</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Array</td>
+              <td>
+                A special variable which allows us to hold more than one value
+                at a time of any data type.
+              </td>
+              <td>['string', 8, true, ['a','b','c'], {type: "object"}]</td>
+            </tr>
+            <tr>
+              <td>Object</td>
+              <td>Key-value pair properties data structure.</td>
+              <td>{firstName: "Daniel", lastName: "Kim"}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h3>Array</h3>
+        <p>
+          Imagine we want to store all the clothing brands for our e-commerce
+          website.
+        </p>
+        <p>
+          If we use only what we know so far, we would do something like this:
+        </p>
+        <div class="codeBlock">
+          <p>var brand1 = "Old Navy"</p>
+          <p>var brand2 = "Gap"</p>
+          <p>var brand3 = "Express"</p>
+          <p>var brand4 = "Forever 21"</p>
+        </div>
+        <p>
+          This could work, but what if we wanted to expand our store more and
+          more? It would start to become impractical to continue this way.
+        </p>
+        <p>
+          With an array, we can hold many values with a single variable and
+          access the values by referring to the index number.
+        </p>
+        <h4>Creating an Array</h4>
+        <p>
+          To create an array, there are multiple way. For now, let's stick to
+          the simplest way.
+        </p>
+        <div class="codeBlock">
+          <p>var myArray = [];</p>
+        </div>
+        <p>For now, we declared an empty array to the variable "myArray".</p>
+        <p>
+          Unlike other programming languages, we do not need to specify the size
+          of the array.
+        </p>
+        <p>
+          I'm going to create another array with some pre-filled brand names.
+        </p>
+        <div class="codeBlock">
+          <p>var brandArray = ['Old Navy', 'Gap', 'Express', 'Forever 21']</p>
+        </div>
+        <p>
+          Note that I only stored strings in this array but you can store any
+          other data types, even another array! For simplicity, I will only use
+          strings.
+        </p>
+        <h4>Accessing Elements of an Array</h4>
+        <p>You access the elements by referring to the index number.</p>
+        <p>In most programming languages, array index start at 0.</p>
+        <p>Using the same "brandArray":</p>
+        <div class="codeBlock">
+          <p>console.log(brandArray[0]) // "Old Navy"</p>
+          <p>console.log(brandArray[3]) // "Forever 21"</p>
+          <p>// Note the syntax: arrayName[IndexNumberInSquareBrackets]</p>
+        </div>
+        <p>
+          We can continue to assign new elements to the array or overwrite
+          elements.
+        </p>
+        <div class="codeBlock">
+          <p>brandArray[4] = "Kirkland" // assigning to an empty index.</p>
+          <p>
+            console.log(brandArray) // ['Old Navy', 'Gap', 'Express', 'Forever
+            21', 'Kirkland']
+          </p>
+          <p>
+            // We use the index 4, even if it is the fifth element because
+            indice start at 0.
+          </p>
+          <br />
+          <p>
+            brandArray[1] = 'Supreme' // overwriting an existing element at
+            index 1, position 2
+          </p>
+          <p>
+            console.log(brandArray) // ['Old Navy', 'Supreme', 'Express',
+            'Forever 21', 'Kirkland']
+          </p>
+        </div>
+        <h4>Some Useful Methods:</h4>
+        <ul>
+          <li>length</li>
+          <div class="codeBlock">
+            <p>console.log(brandArray.length) // 5</p>
+            <p>// it is not the index but the quantity of elements</p>
+          </div>
+          <li>push</li>
+          <div class="codeBlock">
+            <p>brandArray.push("Hollister")</p>
+            <p>
+              console.log(brandArray) // ['Old Navy', 'Gap', 'Express', 'Forever
+              21', 'Kirkland', 'Hollister']
+            </p>
+            <p>console.log(brandArray.length) // 6</p>
+            <p>// automatically pushes to the end of the array</p>
+          </div>
+          <li>indexOf</li>
+          <div class="codeBlock">
+            <p>
+              // indexOf is an evaluation that returns the index, NOT A BOOLEAN
+            </p>
+            <p>// if an item does not exist, it returns '-1'</p>
+            <p>brandArray.indexOf("Hollister") // 5</p>
+            <p>brandArray.indexOf("Abercrombie") // -1</p>
+          </div>
+        </ul>
+        <p>
+          It is important to understand arrays because when we perform DOM
+          manipulation, ie: 'document.getElementsByClassName()', it returns an
+          array.
+        </p>
+        <p>Get comfortable working with elements within an array.</p>
+      </div>
+      <h3>Object</h3>
+      <p>We won't get too deep into objects but at an high level,</p>
+      <p>
+        objects is another structured data type that holds <b>properties</b> in
+        <b>key-value pairs</b>, <b>separated by commas</b>.
+      </p>
+      <p>The most common example is a car.</p>
+      <p>It has many properties such as make, model, weight and color.</p>
+      <p>
+        With the topics we've covered, there is no means of associating
+        variables.
+      </p>
+      <p>Objects solves that problem.</p>
+      <div class="codeBlock">
+        <p>
+          // Instead of having multiple unassociated variables, we can use an
+          object.
+        </p>
+        <p>var carColor = 'gray'; // bad</p>
+        <p>var carMake = 'Hyundai'; // bad</p>
+        <p>var carModel = 'Elantra'; // bad</p>
+        <p>var carYear = 2009; // bad</p>
+        <p>var carWeight = 585; // bad</p>
+        <br />
+        <br />
+        <p>
+          // this COULD possibly work if we were only working with a single car,
+          but most cases, it's not.
+        </p>
+        <p>// Enter object.</p>
+        <p>myCar = {</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;color: 'gray',</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;make: 'Hyundai',</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;model: 'Elantra',</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;year: 2009,</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;weight: 585</p>
+        <p>}</p>
+      </div>
+      <p>
+        Like arrays, you can store different data types within the values of the
+        objects' properties.
+      </p>
+      <br />
+      <h4>Accessing Values of an Object</h4>
+      <p>syntax:</p>
+      <div class="codeBlock">
+        <p>objectName.propertyName</p>
+        <p>// Example:</p>
+        <p>console.log(myCar.color) // 'gray'</p>
+      </div>
+      <div class="codeBlock">
+        <p>objectName["propertyName"]</p>
+        <p>// Example:</p>
+        <p>console.log(myCar['color']) // 'gray'</p>
+      </div>
+    </div>
+    <div id="footer">
+      <div></div>
+      <div class="textAlign">
+        <button onclick="window.location.href='./index.html'">Home</button>
+      </div>
+      <div></div>
+    </div>
+  </body>
+</html>
