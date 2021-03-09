@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Type Pt. 1 | ViT Web Dev</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text&family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="stack" id="main">
+      <div><h1>Data Type Pt. 1</h1></div>
+      <div>
+        <p>JavaScript variables can hold many <b>data types:</b></p>
+        <ul>
+          <li><b>String</b></li>
+          <li><b>Number</b></li>
+          <li><b>Boolean</b></li>
+          <li>Array</li>
+          <li>Object</li>
+        </ul>
+        <p>We're only going to talk about the first three in this lecture.</p>
+        <p>
+          Before we can talk about the data types themselves, it's important to
+          know <b>what</b> we can do with them.
+        </p>
+        <p>
+          If you havent done so already, please review the
+          <a href="./assignment.html">Assignment, Operators, & Comparisons</a>
+          page prior to continuing.
+        </p>
+        <p>
+          We want to be able to continously work with our data so we use
+          variables.
+        </p>
+        <p>
+          Therefore it is important to know the data type to which we can assign
+          to our variables.
+        </p>
+      </div>
+      <div>
+        <table class="offset">
+          <thead>
+            <tr>
+              <th>Data Type</th>
+              <th>Description</th>
+              <th>Example</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>String</td>
+              <td>
+                Text (or numbers) represented in between quotation marks. Can
+                use single or double quotation marks.
+              </td>
+              <td>'Hello' "World"</td>
+            </tr>
+            <tr>
+              <td>Number</td>
+              <td>
+                Any numeric value. Unlike other programming languages, there is
+                no int, float, doubles.
+              </td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Boolean</td>
+              <td>
+                It's own unique type. Be sure not to evaluation as a string.
+              </td>
+              <td>true false</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <p>Some things to note:</p>
+        <p>
+          When adding a number and string, JavaScript treats the number as a
+          string. ie:
+        </p>
+        <div class="codeBlock">
+          <p>var x = 21 + "Savage"</p>
+          <p>console.log(x) // "21Savage"</p>
+          <p>x = 7 + 14 + "Savage"</p>
+          <p>console.log(x) // "21Savage"</p>
+        </div>
+        <br />
+        <p>
+          Like in the example above, JavaScript have dynamic types, meaning that
+          the same variable can be used to hold different data types.
+        </p>
+        <br />
+        <p>Numbers can be written with, or without decimals:</p>
+        <div class="codeBlock">
+          <p>var x = 89</p>
+          <p>var y = 89.00</p>
+        </div>
+        <p>
+          Extra large or extra small numbers can be written in expenoential
+          (scientific) notation:
+        </p>
+        <div class="codeBlock">
+          <p>var z = 123e-5</p>
+        </div>
+        <br />
+        <p>Booleans have only two values: `true` or `false`</p>
+        <p>
+          This is important for comparision and as conditions within statements
+        </p>
+        <div class="codeBlock">
+          <p>if(firstName == 'Daniel'){</p>
+          <p>// perform some logic</p>
+          <p>}</p>
+          <p>
+            // it will only perform the logic if the condition evaluation is
+            true.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div></div>
+      <div class="textAlign">
+        <button onclick="window.location.href='./index.html'">Home</button>
+      </div>
+      <div></div>
+    </div>
+  </body>
+</html>
