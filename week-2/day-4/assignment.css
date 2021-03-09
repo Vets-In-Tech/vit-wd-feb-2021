@@ -1,0 +1,55 @@
+                body {
+                    background-color: grey;
+                }
+                
+                h1 {
+                    text-align: center;
+                }
+                
+                img {
+                    width: 400px;
+                    height: 300px;
+                }
+                
+                #window {
+                    width: 400px;
+                    height: 300px;
+                    border: solid 5px black;
+                    margin: 0 auto;
+                    overflow: hidden;
+                    position: relative;
+                }
+                
+                @keyframes carousel {
+                    from {
+                        transform: translateX(0px);
+                    }
+                    to {
+                        transform: translateX(-1200px);
+                    }
+                }
+                
+                #imageSlider {
+                    display: flex;
+                    animation-name: carousel;
+                    animation-duration: 10s;
+                    animation-iteration-count: infinite;
+                    transform: translateX(0);
+                }
+                
+                #imageSlide {
+                    display: flex;
+                    transform: translateX(0);
+                }
+                
+                #buttons {
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                button {
+                    width: 25px;
+                    height: 25px;
+                    background-color: black;
+                    color: white;
+                }
