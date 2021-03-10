@@ -38,7 +38,7 @@ button {
   flex: 25%;
   padding: 5%;
   font-size: 1.5em;
-  color: midnightblue;
+  color: crimson;
 }
 
 .number {
@@ -57,9 +57,9 @@ button {
   background-color: crimson;
 }
 
-.whyIsntThisWorking\?{
-background-image: url(https://www.nag.co.za/wp-content/uploads/2019/02/pikachu-shocked.png) !important;
-background-size: 100%;
+#whyIsntThisWorking\?{
+  background-image: url(https://www.nag.co.za/wp-content/uploads/2019/02/pikachu-shocked.png);
+  background-size: 100%;
 }
 
 button:focus {
