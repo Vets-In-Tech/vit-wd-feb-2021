@@ -19,7 +19,6 @@ Yesterday, we learned the DOM but what was it all for?
 - getElementById
 - DOM style property
 - setTimeout
-- position absolute vs relative
 
 ### Terminal Learning Objectives
 - Be able to list different types of events.
