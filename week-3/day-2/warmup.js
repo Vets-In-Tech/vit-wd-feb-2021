@@ -21,4 +21,4 @@ clearButton.addEventListener('click', () => {
   display.textContent = ""
 })
 
-display.textContent = "Yummy Math"
+display.textContent = 
