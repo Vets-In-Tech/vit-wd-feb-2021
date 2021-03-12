@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Party Tip Calculation</title>
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <ul id="nav-tab" class="tab">
+        <li class="active"><a href="#partyTip">Party Tip</a></li>
+        <li><a href="#splitTip">Split Tip</a></li>
+      </ul>
+      <div class="tab-content">
+        <div class="active tab-pane" id="partyTip">
+          <input id="billAmount" type="text" placeholder="Enter Bill Amount" />
+          <button type="button" onclick="calculateTip()">Calculate</button>
+          <h1 id="output"></h1>
+        </div>
+        <div class="tab-pane" id="splitTip">
+          <div class="each">
+            <input type="text" class="eachAmount" />
+          </div>
+          <div class="each">
+            <input type="text" class="eachAmount" />
+          </div>
+          <div class="each">
+            <input type="text" class="eachAmount" />
+          </div>
+          <div class="each">
+            <input type="text" class="eachAmount" />
+          </div>
+          <div class="each">
+            <input type="text" class="eachAmount" />
+          </div>
+          <div class="each">
+            <input type="text" class="eachAmount" />
+          </div>
+          <button type="button" onclick="calculateSplitTip()">
+            Calculate Split Tip
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
