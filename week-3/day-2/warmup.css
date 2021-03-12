@@ -1,67 +1,58 @@
 body {
-  height: 99vh;
-  width: 99vw;
-  background-image: -moz-linear-gradient(
-    purple,
-    violet,
-    red,
-    orange,
-    yellow,
-    limegreen,
-    green,
-    lightblue,
-    blue
-  );
+    height: 99vh;
+    width: 99vw;
+    background-image: linear-gradient( purple, violet, red, orange, yellow, limegreen, green, lightblue, blue);
 }
 
 .container {
-  background: lightGrey;
-  width: 50%;
-  margin: auto;
+    background: lightGrey;
+    width: 50%;
+    margin: auto;
 }
 
 #display {
-  background-color: darkGrey;
-  height: 20%;
-  display: flex;
-  justify-content: start;
-  font-size: 15em;
+    background-color: darkGrey;
+    height: 20%;
+    display: flex;
+    justify-content: start;
+    font-size: 15em;
+    overflow: auto;
 }
 
 .buttons {
-  display: flex;
-  flex-wrap: wrap;
-  border: inset 4px darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    border: inset 4px darkgray;
 }
 
 button {
-  flex: 25%;
-  padding: 5%;
-  font-size: 1.5em;
-  color: midnightblue;
+    flex: 25%;
+    padding: 5%;
+    font-size: 1.5em;
+    color: black;
 }
 
 .number {
-  background-color: grey;
+    background-color: grey;
 }
 
 #operator {
-  background-color: orange;
+    background-color: orange;
 }
 
 #equals {
-  background-color: green;
+    background-color: green;
 }
 
 .btn-clear {
-  background-color: crimson;
+    background-color: crimson;
 }
 
-.whyIsntThisWorking\?{
-background-image: url(https://www.nag.co.za/wp-content/uploads/2019/02/pikachu-shocked.png) !important;
-background-size: 100%;
+#whyIsntThisWorking\? {
+    background-image: url(https://cdn.ndtv.com/tech/images/gadgets/pikachu_hi_pokemon.jpg);
+    background-size: 100%;
 }
 
 button:focus {
-  outline: none;
+    outline: none;
 }

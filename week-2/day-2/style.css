@@ -1,18 +1,21 @@
-body {
-    background-color: grey;
-}
-
 img {
-    width: 400px;
+    min-width: 500px;
     height: 300px;
 }
 
 #window {
-    width: 400px;
+    width: 500px;
     height: 300px;
-    border: solid 5px black;
+    border: solid 5px red;
     margin: 0 auto;
     overflow: hidden;
+}
+
+#imgSlider {
+    display: flex;
+    animation-name: carousel;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 @keyframes carousel {
@@ -20,13 +23,6 @@ img {
         transform: translateX(0px);
     }
     to {
-        transform: translateX(-1200px);
+        transform: translateX(-2500px);
     }
-}
-
-#imageSlider {
-    display: flex;
-    animation-name: carousel;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
 }
