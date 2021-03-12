@@ -11,19 +11,13 @@ img{
 }
 /* Function name Nameless */
 @keyframes Nameless{
-    from{
-        0%{
-            opacity: 0;
-        transform: translateX(0px);
-        opacity: 2;
-        transform: translateX(-1200px);}
-
-    }
+    from{opacity: 0;
+        transform: translateX(0px);}
     to{
         opacity: 2;
         transform: translateX(-1200px);
     }
-} 
+}
 #slider{
     display:flex;
     /* Calling the function */
