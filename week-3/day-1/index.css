@@ -1,0 +1,112 @@
+* {
+  margin: 10px;
+  padding: 0;
+}
+body {
+  font-family: "Big Shoulders Inline Text", cursive;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
+
+a {
+  text-decoration: underline;
+  background-color: #dddddd;
+}
+
+h1 {
+  margin: 50px;
+  font-family: "Big Shoulders Inline Text", cursive;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+.codeBlock {
+  background-color: floralwhite;
+  font-family: "Consolas";
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.offset {
+  background-color: #dddddd;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+  padding: 50px;
+}
+
+.textAlign {
+  text-align: center;
+}
+
+.tocLi {
+  text-decoration: none;
+  background-color: white;
+}
+
+#main {
+  font-family: "Noto Sans JP", sans-serif;
+  border: solid 1px black;
+  border-radius: 10%;
+  background-color: bisque;
+}
+
+button {
+  background-color: black;
+  border-radius: 10px;
+  border: 4px double white;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Big Shoulders Inline Text", cursive;
+  padding: 20px;
+  width: 200px;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s;
+  cursor: pointer;
+  margin: 50px;
+}
+
+#splashPage {
+  position: absolute;
+  width: 100%;
+}
+
+#tableOfContent {
+  visibility: hidden;
+  padding: 100px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+}
