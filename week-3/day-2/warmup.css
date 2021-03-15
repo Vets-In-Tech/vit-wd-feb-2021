@@ -1,7 +1,7 @@
 body {
   height: 99vh;
   width: 99vw;
-  background-image: -moz-linear-gradient(
+  background-image:linear-gradient(
     purple,
     violet,
     red,
