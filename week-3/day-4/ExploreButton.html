@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChiyaUp App</title>
+    <link rel="StyleSheet" href="./AppAssignment.css">
+    <script defer src="./AppAssignment.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+    <link rel = "icon" href = "./favicon.png" type = "image/x-icon"> 
+</head>
+<body>
+    <h1 style="font-style: italic;color:#228;background-color: lemonchiffon; margin-top: auto;">
+        <img width ="35px" height="35px" src="./favicon.png" style="float:left;" />
+        ChiyaUp
+    </h1>
+    <div class= "homeButton">
+        <button style = "width: 100px;height: 30px;position:relative; left:1400px;background-color: pink;" onclick="location.href='./AppAssignment.html'">Home Page</button>
+    </div> 
+
+    <div>
+        <button id="style" onclick="tab('Inspirational-ideas')"><a href="#Inspirational-ideas">Inspiration</a></button>
+        <button id="style" onclick="tab('Comedy-videos')"><a href="#Comedy-videos">Comedy</a></button>
+        <button id="style" onclick="tab('Music-recomendations')"><a href="#Music-recomendations">Music</a></button>
+        <button id="style" onclick="tab('Share-your-handles')"><a href="#Share-your-handles">Social Media</a></button>
+    </div>
+    <div class="pos">
+        <div id="Inspirational-ideas" class="tabz">
+            <h2>Learn new things:</h2>
+            <h3>A beginner's guide to growing plants</h3>
+            <img style="width: 200px; height: 200px ;" src="./gardening.jpg">
+            <a href="https://gardenerspath.com/how-to/beginners/growing-plants-101/" target="_blank">Learn how to grow your own plants</a>
+            <h3>Learn the benefits of meditation</h3>
+            <img style="width: 200px; height: 200px ;" src="./meditation.jfif">
+            <a href="https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858" target="_blank">Learn how to grow your own plants</a>
+            <h3>Fun facts about our world</h3>
+            <img style="width: 200px;" src="./countries.jpg">
+            <a href="https://www.farandwide.com/s/fascinating-facts-every-country-7c1f1a0efdf64979" target="_blank">Fun facts about different countries</a>
+            <h3>Learn how to organize well</h3>
+            <img style="width: 200px;" src="./organise.jfif">
+            <a href="https://www.adjustingtoadulthood.com/beginners-guide-to-organization/" target="_blank">A beginner's guide to organizing</a>
+        </div>
+        
+        <div id="Comedy-videos" class="tabz" style="display:none">
+            <h2>Have a laugh</h2>
+            <p>Laughter is good for your health. It relaxes your body, boosts the immune system, burns calories and protects the heart.Laughter triggers the release of endorphins, the body's natural feel-good chemicals and lightens anger's heavy load.
+            <h4>Check these videos out</h4>
+            <a href="https://www.youtube.com/watch?v=wnQoxT2iMkQ" target="_blank">Samuel J. Comroe: Comedian With Tourette Syndrome Impresses Crowd - America's Got Talent 2018</a>
+            <br>
+            <br>
+            <a href="https://www.youtube.com/watch?v=DODLEX4zzLQ" target="_blank">WATCH and TRY TO STOP LAUGHING - Super FUNNY VIDEOS compilation</a>
+            <br>
+            <br>
+            <a href="https://www.youtube.com/watch?v=s6uW1odtjPc" target="_blank">12 Comics You Need to See - Comedy Central Stand-Up Presents</a>
+            <br>
+            <br>
+            <a href="https://www.youtube.com/watch?v=s1jmtY88WEc" target="_blank">10 Hilarious Comedy Bits of Series 10 | Live at the Apollo | BBC Comedy Greats</a>
+        </div>
+        
+        <div id="Music-recomendations" class="tabz" style="display:none">
+            <h2>Relax and listen to some calm music</h2>
+            <p>Here are some calming sounds for you to enjoy.</p>
+            <audio src="audio_547ebbf828.mp3" controls></audio>
+            <br>
+            <br>
+            <audio src="audio_926fbf0b66.mp3" controls></audio>
+            <br>
+            <br>
+            <audio src="audio_fe4d3bcac9.mp3" controls></audio>
+            <br>
+            <br>
+            <audio src="bensound-relaxing.mp3" controls></audio>
+        </div>
+        <div id="Share-your-handles" class="tabz" style="display:none">
+            <h2>Share your social media handles and make new friends</h2>
+            <input id="socialHandle" placeholder="input social media handle" type ="text"/> 
+            <button onclick= "func()"> Enter </button> 
+            <ul id="soList"></ul>
+        </div>
+    </div>
+</body>
+</html>

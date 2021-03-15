@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChiyaUp App</title> 
+    <script src="./AppAssignment.js"></script>
+    <link rel="StyleSheet" href="./AppAssignment.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap" rel="stylesheet">
+    <link rel = "icon" href = "./favicon.png" type = "image/x-icon"> 
+</head>
+<body>
+    <h1 style="font-style: italic;color:#228;background-color: lemonchiffon; margin-top: auto;">
+        <img width ="35px" height="35px" src="./favicon.png" style="float:left;" />
+        ChiyaUp
+    </h1> 
+    <p id="paragraph"> 
+        We all need support or at least someone to talk to, but sometimes we either don't have that someone, or what is bothering us is not easy to express. 
+        We at ChiyaUp understand this so we have created a safe space in which you can pour all your emotions anonymously. 
+        After you're done writing how you feel, we suggest you read what you just wrote to understand how you are feeling. 
+        When you're ready, press the release button to delete this text, release all the negative emotions (if any) and make today a great day!
+    </p>
+    <textarea id ="clear" class="text" type="text" placeholder="Empty"></textarea>
+    <div class= "delete">
+        <button style = " width: 100px;height: 30px;position:relative; left:1030px; top:2px; background-color:lemonchiffon" onclick="eraseText();">Release</button>
+    </div> 
+    <div class= "homeButton">
+        <button style = " width: 100px;height: 30px;position:relative; left:1400px;background-color: yellow;" onclick="location.href='./AppAssignment.html'">Home Page</button>
+    </div> 
+</body>
+</html>

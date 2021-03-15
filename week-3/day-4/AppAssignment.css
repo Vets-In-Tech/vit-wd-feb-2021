@@ -1,0 +1,52 @@
+body{
+    height: 99vh;
+    width: 99vw;
+    background-image:linear-gradient(
+        lemonchiffon,
+        #ffbf,
+        yellow,
+        orange,
+        lightpink,
+        violet,
+        blue
+    );
+}
+.button{
+    text-align: center;  
+}
+#event{
+    background-image: url("./Venting.jpg");
+    font-size: x-large;
+    border-radius: 1000px;
+}
+#explore{
+    background-image: url("./explore.jpg");
+    font-size: x-large;
+    border-radius: 1000px;
+}
+#paragraph{
+    margin: 20px;
+    background-color: white;
+    border: solid 2px black;
+    width: 1100px;
+}
+.text{
+    width: 1100px;
+    height: 500px;
+    margin-left: 20px;
+}
+#style{
+    display: inline-flex;
+    border: solid black 2px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.pos{
+    margin-left: 20px;  
+}
+a{
+    font-weight: bolder;
+}
+
