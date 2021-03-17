@@ -1,0 +1,42 @@
+
+
+body {
+    background-color: cadetblue;
+    height: 100%vh;
+}
+
+#banner {
+    background-color: blue;
+    height: 25%;
+    width: 90%;
+    margin: 1%;
+}
+
+#container {
+    height: 50%;
+    width: 90%;
+    background-color: honeydew;
+    margin: 2%;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: white ;
+}
+
+h3 {
+
+    color: crimson;
+}
+
+
+.column {
+    background-color: darkgrey;
+    height: 78%;
+    width: 20%;
+    float: left;
+    margin-left: 1%;
+}
