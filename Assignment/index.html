@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness Tracker</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+    </style>
+    <script defer src="./assignment.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Wellness Tracker</h1>
+
+    <div id="container">
+
+        <div id="column">
+            <h2>Exercise</h2>
+            <h3>Goal: 60-90</h3>
+            <h3>Monday</h3>
+            <input type="number" min="0" onchange="calculateExercise()" class="exercise" placeholder="Minutes">
+            <h3>Tuesday</h3>
+            <input type="number" min="0" onchange="calculateExercise()" class="exercise" placeholder="Minutes">
+            <h3>Wednesday</h3>
+            <input type="number" min="0" onchange="calculateExercise()" class="exercise" placeholder="Minutes">
+            <h3>Thursday</h3>
+            <input type="number" min="0" onchange="calculateExercise()" class="exercise" placeholder="Minutes">
+            <h3>Friday</h3>
+            <input type="number" min="0" onchange="calculateExercise()" class="exercise" placeholder="Minutes">
+            <h3>Saturday</h3>
+            <input type="number" min="0" onchange="calculateExercise()" class="exercise" placeholder="Minutes">
+            <h3>Sunday</h3>
+            <input type="number" min="0" onchange="calculateExercise()" class="exercise" placeholder="Minutes">
+        </div>
+
+        <div id="column">
+            <h2>Fast</h2>
+            <h3>Goal: 16-20</h3>
+            <h3>Monday</h3>
+            <input type="number" min="0" onchange="calculateFast()" class="fast" placeholder="Hours">
+            <h3>Tuesday</h3>
+            <input type="number" min="0" onchange="calculateFast()" class="fast" placeholder="Hours">
+            <h3>Wednesday</h3>
+            <input type="number" min="0" onchange="calculateFast()" class="fast" placeholder="Hours">
+            <h3>Thursday</h3>
+            <input type="number" min="0" onchange="calculateFast()" class="fast" placeholder="Hours">
+            <h3>Friday</h3>
+            <input type="number" min="0" onchange="calculateFast()" class="fast" placeholder="Hours">
+            <h3>Saturday</h3>
+            <input type="number" min="0" onchange="calculateFast()" class="fast" placeholder="Hours">
+            <h3>Sunday</h3>
+            <input type="number" min="0" onchange="calculateFast()" class="fast" placeholder="Hours">
+        </div>
+
+        <div id="column">
+            <h2>Read</h2>
+            <h3>Goal: 30-60</h3>
+            <h3>Monday</h3>
+            <input type="number" min="0" onchange="calculateRead()" class="read" placeholder="Minutes">
+            <h3>Tuesday</h3>
+            <input type="number" min="0" onchange="calculateRead()" class="read" placeholder="Minutes">
+            <h3>Wednesday</h3>
+            <input type="number" min="0" onchange="calculateRead()" class="read" placeholder="Minutes">
+            <h3>Thursday</h3>
+            <input type="number" min="0" onchange="calculateRead()" class="read" placeholder="Minutes">
+            <h3>Friday</h3>
+            <input type="number" min="0" onchange="calculateRead()" class="read" placeholder="Minutes">
+            <h3>Saturday</h3>
+            <input type="number" min="0" onchange="calculateRead()" class="read" placeholder="Minutes">
+            <h3>Sunday</h3>
+            <input type="number" min="0" onchange="calculateRead()" class="read" placeholder="Minutes">
+        </div>
+
+        <div id="column">
+            <h2>Meditate</h2>
+            <h3>Goal: 10-30</h3>
+            <h3>Monday</h3>
+            <input type="number" min="0" onchange="calculateMeditate()" class="meditate" placeholder="Minutes">
+            <h3>Tuesday</h3>
+            <input type="number" min="0" onchange="calculateMeditate()" class="meditate" placeholder="Minutes">
+            <h3>Wednesday</h3>
+            <input type="number" min="0" onchange="calculateMeditate()" class="meditate" placeholder="Minutes">
+            <h3>Thursday</h3>
+            <input type="number" min="0" onchange="calculateMeditate()" class="meditate" placeholder="Minutes">
+            <h3>Friday</h3>
+            <input type="number" min="0" onchange="calculateMeditate()" class="meditate" placeholder="Minutes">
+            <h3>Saturday</h3>
+            <input type="number" min="0" onchange="calculateMeditate()" class="meditate" placeholder="Minutes">
+            <h3>Sunday</h3>
+            <input type="number" min="0" onchange="calculateMeditate()" class="meditate" placeholder="Minutes">
+        </div>
+    </div>
+
+    <div id=totalContainer>
+        <div id="tcolumn">
+            <h2>Total:</h2>
+            <h2 id="outputexercise"></h2>
+        </div>
+        <div id="tcolumn">
+            <h2>Total:</h2>
+            <h2 id="outputfast"></h2>
+        </div>
+        <div id="tcolumn">
+            <h2>Total:</h2>
+            <h2 id="outputread"></h2>
+        </div>
+        <div id="tcolumn">
+            <h2>Total:</h2>
+            <h2 id="outputmeditate"></h2>
+        </div>
+    </div>
+
+</body>
+
+</html>

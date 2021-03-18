@@ -1,0 +1,51 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: black;
+    background-image: url(https://www.zenlightenment.net/wp-content/uploads/2020/03/fudoshin.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px;
+    text-decoration: underline;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+input {
+    width: 70px;
+    background-color: black;
+    color: white;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#column {
+    padding: 30px;
+    padding-top: 0px;
+    background-color: rgb(179, 173, 173);
+    border-radius: 25px;
+    border: black solid 3px;
+}
+
+#totalContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#tcolumn {
+    padding: 50px;
+    padding-top: 0px;
+    background-color: rgb(179, 173, 173);
+    border-radius: 25px;
+    border: black solid 3px;
+}
