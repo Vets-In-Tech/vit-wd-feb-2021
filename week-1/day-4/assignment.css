@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  background-color: dimgray;
+  display: flex;
+  flex-direction: row;
+  width: 300vw;
+  height: 400vh;
+}
+#leftColumn {
+  background-color: white;
+}
+#midColumn {
+  background-color: white;
+}
+#rightColumn {
+  background-color: white;
+}
+div {
+  float: left;
+  height: 650px;
+  width: 32%;
+  border: 4px inset rgb(71, 71, 255);
+}

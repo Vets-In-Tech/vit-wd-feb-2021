@@ -1,6 +1,10 @@
 function decrement() {
   // access the DOM element associated with the h1
+<<<<<<< HEAD
+  var h1Element = document. getElementById("grabMe");
+=======
   var h1Element = document.getElementById("grabMe");
+>>>>>>> 9fbcb841f482f259b23129f262be5d2db299cb82
   var numberText = Number(h1Element.innerText);
   console.log(numberText);
   if (numberText > 0) {
